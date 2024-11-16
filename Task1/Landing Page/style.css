@@ -1,0 +1,535 @@
+
+body
+{
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: white;
+}
+
+/* Nav Bar */
+#divnav
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    /* padding: 20px; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+    position: sticky;
+}
+
+nav
+{
+    margin-top: -20px;
+    margin-left: 400px;
+}
+
+/* #divnav select:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: -100%;
+    visibility: visible;
+  } */
+a:link
+{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:visited
+{
+    color: black;
+}
+
+a:active
+{
+    color: black;
+}
+
+a:hover
+{
+    color: #eb5d1e;
+}
+
+ul
+{
+    list-style: none;
+}
+
+li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+select
+{
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 18px;
+}
+.btnget
+{
+    margin-top: 40px;
+    background-color: #eb5d1e;
+    color: white;
+    
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #eb5d1e;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+/* Better Digital  */
+
+#divbetter
+{
+    background-color: #fffaf8;
+    height: 400px;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid #eb5d1e;
+    gap: 0px;
+}
+
+
+.imgdiv
+{
+    margin-top: -150px;
+    animation-name: up-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    animation-delay: 0s; 
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out; 
+}
+@keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+
+.imgdiv img
+{
+    height:700px;
+    width:700px;
+}
+
+/* Voluptatem  */
+
+#divvol
+{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+
+/* Services */
+#divservices
+{
+    background-color: #fffaf8;
+    /* background-color: black; */
+    text-align: center;
+    margin-top: -50px;
+    padding-top: 40px;
+}
+
+#gridservices
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 100px;
+}
+
+.classservices
+{
+    margin-top: -50px;
+    height: 225px;
+    background-color: white;
+    text-align: left;
+    padding: 25px;
+    box-shadow: 5px 5px 5px lightgray;
+
+    /* transition: all ease-in-out 0.4s; */
+}
+
+.classservices:hover
+{
+    transform: translateY(-10px);
+}
+
+.classservices:hover h2
+{
+   color:#eb5d1e ;
+}
+
+h2
+{
+    color:#7a6960 ;
+}
+
+
+/* Portfolio */
+
+#divportfolio
+{
+    text-align: center;
+}
+
+#divportfolio nav
+{
+    text-align: center;
+    margin: 50px;
+    font-weight: 500;
+}
+
+#divportfolio a:hover
+{
+    color: #eb5d1e;
+}
+
+#gridportfolio
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 100px;
+    margin-top: -100px;
+}
+
+#gridportfolio img
+{
+    height: 300px;
+    width: 415px;
+}
+
+/* .classportfolio
+{
+    height: 500px;
+    width: 500px;
+} */
+
+
+/* Frequently Asked Questions */
+#divfrequently
+{
+    background-color: #fffaf8;
+    /* background-color: black; */
+    text-align: center;
+    margin-top: -50px;
+    padding-top: 40px;
+}
+
+#divfrequently hr
+{
+    background-color: #eb5d1e;
+    width: 50px;
+    height: 4px;   
+}
+
+#gridfrequently
+{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 50px; 
+   
+    width: 1400px;
+}
+
+.classfrequently
+{
+   
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height:65px;
+}
+
+.classfrequently p
+{
+    font-weight: 500;
+    color:rgb(122, 105, 96);
+    text-align: left;
+    margin-left: 20px;
+}
+
+.classfrequently p:hover{
+    color: #eb5d1e;
+}
+
+/* Team */
+
+#divteam
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#divteam hr
+{
+    background-color: #eb5d1e;
+    width: 50px;
+    height: 4px;   
+}
+
+#gridteam
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 100px;
+    margin-top: -100px;
+    margin-left: -70px;
+    margin-top: -70px;
+}
+
+#gridteam img
+{
+    height: 350px;
+    width: 350px;
+}
+
+#gridteam img:hover
+{
+    opacity: 100;
+}
+
+
+/* Clients */
+#divclients
+{
+    background-color: #fffaf8;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: -80px;
+    text-align: center;
+}
+
+#divclients hr
+{
+    background-color: #eb5d1e;
+    width: 50px;
+    height: 4px;   
+}
+
+#gridclients
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    margin-left: 150px;
+}
+
+#gridclients img
+{
+    height: 50px;
+    width: 100px;
+}
+
+
+/* Contact */
+
+#divcontact
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#divcontact hr
+{
+    background-color: #eb5d1e;
+    width: 50px;
+    height: 4px;   
+}
+
+#gridcontact
+{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 50px;
+}
+
+#addresscontact
+{
+    text-align: left;
+    height: 600px;
+    width: 500px;
+    border-top: #eb5d1e 3px solid;
+    border-bottom: #eb5d1e 3px solid;
+    box-shadow: 1px 2px 3px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+#addresscontact iframe
+{
+    height: 250px;
+    width: 450px;
+    margin-top: 50px;
+}
+
+#formcontact
+{
+    height: 580px;
+    width: 700px;
+    border-top: #eb5d1e 3px solid;
+    border-bottom: #eb5d1e 3px solid;
+    box-shadow: 1px 2px 3px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#formgrid
+{
+   display: grid;
+   grid-template-columns: auto auto ;
+   gap: none;
+}
+
+.btnsend
+{
+    margin-top: 15px;
+    margin-left: 250px;
+    background-color: #eb5d1e;
+    color: white;
+    
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #eb5d1e;
+    border-radius: 25px;
+    font-size: 14px; 
+}
+
+/* Join Our Newsletter */
+#divjoin
+{
+    background-color: #fffaf8;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btnsub
+{
+    margin-top: 15px;
+    margin-left: 250px;
+    background-color: #eb5d1e;
+    color: white;
+    
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #eb5d1e;
+    border-radius: 25px;
+    font-size: 14px; 
+}
+
+#divjoin p
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#divjoin input[type="text"]
+{
+    margin-left: 100px;
+    height: 35px;
+    width: 650px; 
+    border-radius: 25px;
+    border: 1px solid black;
+    color: black;
+}
+
+#divjoin input[type="text"]:focus
+{
+    border-color: #eb5d1e;
+    box-shadow: 0 0 0 0.2rem rgba(232, 140, 11, 0.25);
+}
+
+/* .input-style {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+  }
+  
+  .input-style:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  } */
+
+#divjoin button
+{
+    margin-left: -100px;
+}
+
+/* Footer */
+
+#divfooter
+{
+    background-color: #ffffff;
+    text-align: left;
+    margin-left: 100px;
+}
+
+footer hr
+{
+    background-color: #7a6960; 
+    width: 100%;
+    height: 0.5px;
+}
+
+#gridfooter
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 100px;
+    padding-bottom: 100px;    
+}
+
+#gridicon
+{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;    
+}
+
+.iconclass
+{
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    /* background-color: white; */
+}
+
+.iconclass i
+{
+    font-size: 20px;
+    margin-left: 11px;
+    margin-top: 11px;
+    /* color: #7a6960; */
+    color: #212529;
+}
+
+
